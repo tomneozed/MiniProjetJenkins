@@ -1,12 +1,9 @@
 package test;
 
-import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.FileInputStream;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Properties;
 
 import org.junit.jupiter.api.AfterAll;
