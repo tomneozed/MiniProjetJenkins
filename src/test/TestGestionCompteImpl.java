@@ -32,15 +32,15 @@ class TestGestionCompteImpl {
 		propFile.close();
 	}
 
-	@Test
-	void testCreate() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	void testCreate() {
+//		fail("Not yet implemented");
+//	}
 
-	@Test
-	void testDelete() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	void testDelete() {
+//		fail("Not yet implemented");
+//	}
 
 	@Test()
 	void testCrediter() throws Exception {

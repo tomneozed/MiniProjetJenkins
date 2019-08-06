@@ -36,4 +36,45 @@
       </plugin>
     </plugins>
   </build>
+  <!-- ========================================================================= -->
+  <!-- ==============================   PROFILS   ============================== -->
+  <!-- ========================================================================= -->
+  <profiles>
+  	<!--  TEST -->
+  	<profile>
+  		<id>test</id>
+  		<activation>
+  			<jdk>1.8</jdk>
+  			<property>
+  				<name>environnement</name>
+  				<value>test</value>
+  			</property>
+  		</activation>
+		<build>
+			<resources>
+				<resource>
+					<directory>src/test/resources/conf-test</directory>
+				</resource>			
+			</resources>
+		</build>  	
+  	</profile>
+  	<!--  PROD -->
+  	<profile>
+		<id>prod</id>
+		<activation>
+  			<jdk>1.8</jdk>
+  			<property>
+  				<name>environnement</name>
+  				<value>prod</value>
+  			</property>
+  		</activation>
+		<build>
+			<resources>
+				<resource>
+					<directory>src/main/resources/conf-prod</directory>
+				</resource>			
+			</resources>
+		</build>  	
+  	</profile>
+  </profiles>
 </project>
