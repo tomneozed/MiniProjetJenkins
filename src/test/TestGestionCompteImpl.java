@@ -42,6 +42,8 @@ class TestGestionCompteImpl {
 //		fail("Not yet implemented");
 //	}
 
+	
+	//UNIT TESTS
 	@Test()
 	void testCrediter() throws Exception {
 		
@@ -116,4 +118,6 @@ class TestGestionCompteImpl {
 			assertEquals(cinfe.getErrCode(), 1);
 		}
 	}
+	
+	//INTEGRATION TESTS
 }
